@@ -1,11 +1,5 @@
-# UCSC functionality for WordPress sites
+# Add-on features for news.ucsc.edu in WordPress
 
-[![Build and release](https://github.com/ucsc/ucsc-custom-functionality/actions/workflows/release.yml/badge.svg)](https://github.com/ucsc/ucsc-custom-functionality/actions/workflows/release.yml)
+[![Build and release](https://github.com/ucsc/ucsc-news-addons/actions/workflows/release.yml/badge.svg)](https://github.com/ucsc/ucsc-news-addons/actions/workflows/release.yml)
 
-This is WordPress plugin contains custom functionality for UCSC websites. The concept is to keep features of a site that are theme independent, such as custom post-types, taxonomies, and roles separate from the [UCSC theme code](https://github.com/ucsc/theme-ucsc). This will ensure that future theme changes do not affect a site's functionality.
-
-## Features
-
--   `admin-menus.php` - Customizes the admin area to remove unwanted menus from the Dashboard and front-facing Admin menu.
--   `shortcodes.php` - Custom short codes.
--   `scripts.php` - Google Analytics, SiteImprove, Security Headers, and Disable XMLRPC
+This is WordPress plugin contains add-on features for UCSC News. This plugin contains a custom post type for media coverage, patterns, and and templates separate from the [UCSC 2022 theme](https://github.com/ucsc/theme-ucsc).
